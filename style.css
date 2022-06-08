@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(25, 25, 35);
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.console {
+  display: flex;
+  flex-direction: column;
+}
+
+.console-input {
+  position: fixed;
+  width: 100%;
+  padding: 1.5rem;
+  outline: none;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.console-history {
+  padding: 1.5rem;
+  margin-top: 3rem;
+}
+
+.console-input-log,
+.console-output-log {
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+}
+
+.console-output-log {
+  color: #ccff00;
+  font-weight: bold;
+}
